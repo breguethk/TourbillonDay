@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>寶璣慶祝陀飛輪日</title>
+<meta name="description" content="寶璣慶祝陀飛輪日">
+<meta property="og:title" content="寶璣慶祝陀飛輪日" />
+<meta property="og:description" content="寶璣慶祝陀飛輪日">
+<meta property="og:image" content="https://breguethk.github.io/TourbillonDay/img/ME_preview.jpg">
+<style type="text/css">
+  body {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  }
+  img, video {
+    display: block;
+  }
+  /*.offset-img {
+    position: relative;
+  }*/
+</style>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    offsetImgs();
+  });
+
+  $( window ).resize(function() {
+    offsetImgs();
+  });
+
+  function offsetImgs() {
+    var videoHeight = $("#b-video").height();
+    videoHeight = videoHeight * 1.13;
+    $(".offset-img").css("margin-top", "-" + videoHeight + "px")
+  }
+</script>
+</head>
+<body>
+  <img valign="top" src="img/Tourbillon_Day_H5_01_AW_1399_H5_1.png" width="100%" height="auto" alt=""/>
+  <video width="100%" height="auto" controls="controls" autoplay="autoplay" loop muted id="b-video">
+    <source src="TOURBILLON_SQUELETTE_5395_small.mp4" type="video/mp4">
+  </video>
+  <img valign="top" src="img/Tourbillon_Day_H5_01_AW_1399_H5_2.png" width="100%" height="auto" alt="" class="offset-img"/>
+  <video width="100%" height="auto" controls="controls" autoplay="autoplay" loop muted>
+    <source src="5367.mp4" type="video/mp4">
+  </video>
+  <img valign="top" src="img/Tourbillon_Day_H5_01_AW_1399_H5_3.png" width="100%" height="auto" alt="" class="offset-img"/>
+  <video width="100%" height="auto" controls="controls" autoplay="autoplay" loop muted>
+    <source src="video-5377_small.mp4" type="video/mp4">
+  </video>
+  <img valign="top" src="img/Tourbillon_Day_H5_01_AW_1399_H5_4.png" width="100%" height="auto" alt="" class="offset-img"/>
+  <img valign="top" src="img/Tourbillon_Day_H5_01_AW_1399_H5_5a.png" width="100%" height="auto" alt=""/>
+  <video width="100%" height="auto" controls="controls" autoplay="autoplay" loop muted>
+    <source src="1808.mp4" type="video/mp4">
+  </video>
+  <img valign="top" src="img/Tourbillon_Day_H5_01_AW_1399_H5_5b.png" width="100%" height="auto" alt="" class="offset-img"/>
+  <img valign="top" src="img/Tourbillon_Day_H5_01_AW_1399_H5_6.png" width="100%" height="auto" alt=""/>
+  <img valign="top" src="img/Tourbillon_Day_H5_01_AW_1399_H5_7.png" width="100%" height="auto" alt=""/>
+</body>
+</html>
